@@ -4,7 +4,7 @@ pipeline{
         stage('Build'){
             steps{
                 sh 'g++ test.cpp'
-                sh '/vaar/jenkins_home/workspace/pes1ug20cs457-1/main/hello_exec'
+                sh '/var/jenkins_home/workspace/pes1ug20cs457-1/main/hello_exec'
             }
         }
         stage('Test'){
